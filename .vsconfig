@@ -1,0 +1,103 @@
+{
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontWeight": "200",
+    "editor.fontSize": 18,
+    "editor.fontLigatures": true,
+    "editor.matchBrackets": false,
+    "editor.autoClosingBrackets": "always",
+    "editor.dragAndDrop": true,
+    "editor.stablePeek": true,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "smooth",
+    "editor.detectIndentation": true,
+    "editor.renderIndentGuides": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "[json]": {
+        "editor.formatOnSave": true
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+        "xml": {
+            "attr_quotes": "single"
+        }
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.sortOrder": "type",
+    "git.enableSmartCommit": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "terminal.integrated.shell.osx": "zsh",
+    "terminal.integrated.fontFamily": "ShureTechMono Nerd Font Mono",
+    "terminal.integrated.fontWeight": "300",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontSize": 16,
+    "emmet.includeLanguages": {
+        "markdown": "html",
+        "typescript": "html",
+        "javascript": "javascriptreact",
+        "vue-html": "html"
+    },
+    "python.autoComplete.addBrackets": true,
+    "python.dataScience.enabled": true,
+    "python.autoUpdateLanguageServer": true,
+    "python.dataScience.allowInput": true,
+    "standard.enable": true,
+    "standard.run": "onType",
+    "standard.autoFixOnSave": true,
+    "standard.options": {
+        "globals": [
+            "$",
+            "jQuery",
+            "fetch",
+            "cy",
+            "describe",
+            "beforeEach",
+            "afterEach",
+            "context",
+            "it",
+            "server",
+            "socket",
+            "io",
+            "<"
+        ],
+        "ignore": [
+            "node_modules/**",
+            ".gitignore",
+            "package.json",
+            "package-lock.json"
+        ],
+        "plugins": ["html"]
+    },
+    "standard.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "html",
+            "autoFix": true,
+        }
+    ],
+    "workbench.colorTheme": "Cobalt2",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.colorCustomizations": {
+        "terminalCursor.foreground": "#00ffaa",
+    },
+    "terminal.integrated.cursorBlinking": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "cSpell.userWords": [
+        "iloc",
+        "minmax",
+        "numpy",
+        "server",
+        "sklearn",
+        "unsplash"
+    ],
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "window.zoomLevel": 0
+}
